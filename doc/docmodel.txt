@@ -1,0 +1,39 @@
+/**
+ * @namespace
+ * @public
+ */
+const namespace = {}
+
+/*  This implements the following methods and properties:
+    > randomItem()
+    > unique()
+    > stripFalsy()
+    > segregate()
+    > remove()
+    > last()
+    > average()
+*/
+
+/**
+ * Returns a pseudo-random item (of any type) from an array. 
+ * The randomization is based on generating a pseudo-random integer between 0 and the array length,
+ * and then returning the item in that position.
+ * 
+ * @warning This method uses non-cryptographically-secure randomization
+ * 
+ * @since 1.2.5
+ * @category Array
+ * 
+ * @param {Array} array The array to select an item from
+ * @returns {any} A pseudo-random item from the array
+ * 
+ * @example <caption> Using randomItem() in a array containing only primitive items:</caption>
+ * randomItem([1,2,3])
+ * // => 1 OR 2 OR 3
+ * @example <caption> Using randomItem() in a array containing primitive and complex items:</caption>
+ * randomItem([['a','b'], 8, 'foo'])
+ * // => ['a','b'] OR 8 OR 'foo'
+ * @example <caption> Using randomItem() in an empty array:</caption>
+ * randomItem([])
+ * // => undefined
+ */
