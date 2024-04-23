@@ -1,0 +1,16 @@
+{
+	"dependencies": {
+		"path-to-regexp": "^6.2.2"
+	},
+	"name": "slower",
+	"version": "2.0.1",
+	"main": "index.js",
+	"devDependencies": {},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "Tomás Luchesi <no.mad.devtech@gmail.com>",
+	"license": "MIT",
+	"description": "A package for simple HTTP server routing."
+}
